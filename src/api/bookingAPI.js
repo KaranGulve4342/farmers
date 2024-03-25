@@ -3,6 +3,7 @@ import instance from "./config";
 import Cookies from "js-cookie";
 import axios from "axios";
 
+// const url = "https://krishi-sadhan-app.herokuapp.com";
 const url = "https://krishi-sadhan-app.herokuapp.com";
 
 export const getBooking = async () => {
