@@ -2,7 +2,8 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import { renewAccessToken } from "./authAPI";
 const instance = axios.create({
-  baseURL: "https://krishi-sadhan-app.herokuapp.com",
+  // baseURL: "https://krishi-sadhan-app.herokuapp.com",
+  baseURL: "http://localhost:5000",
 });
 
 instance.interceptors.response.use(

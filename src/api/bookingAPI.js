@@ -4,7 +4,8 @@ import Cookies from "js-cookie";
 import axios from "axios";
 
 // const url = "https://krishi-sadhan-app.herokuapp.com";
-const url = "https://krishi-sadhan-app.herokuapp.com";
+// const url = "https://krishi-sadhan-app.herokuapp.com";
+const url = "http://localhost:5000";
 
 export const getBooking = async () => {
   try {
